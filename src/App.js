@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { AuthProvider }    from "./context/AuthContext";
-import { SocketProvider }  from "./context/SocketContext";
-import { ThemeProvider }   from "./context/ThemeContext";
-import ProtectedRoute      from "./components/layout/ProtectedRoute";
-import LoginPage           from "./pages/LoginPage";
-import SignupPage          from "./pages/SignupPage";
-import InboxPage           from "./pages/InboxPage";
-import ProfilePage         from "./pages/ProfilePage";
-import AdminDashboard      from "./pages/AdminDashboard";
+import { AuthProvider } from "./context/AuthContext";
+import { SocketProvider } from "./context/SocketContext";
+import { ThemeProvider } from "./context/ThemeContext";
+import ProtectedRoute from "./components/layout/ProtectedRoute";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+import InboxPage from "./pages/InboxPage";
+import ProfilePage from "./pages/ProfilePage";
+import AdminDashboard from "./pages/AdminDashboard";
 
 export default function App() {
   return (
