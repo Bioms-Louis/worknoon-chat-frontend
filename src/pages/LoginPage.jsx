@@ -111,7 +111,7 @@ export default function LoginPage() {
                 <button
                   key={u.email}
                   type="button"
-                  onClick={() => setForm({ email: u.email, password: "password123" })}
+                  onClick={() => setForm({ email: u.email, password: "" })}
                   className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-brand-50 dark:hover:bg-brand-900/20 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
                 >
                   {u.label}
